@@ -1,0 +1,27 @@
+{
+  "name": "developer-coding-evaluation",
+  "version": "1.0.0",
+  "description": "Cardinal Solutions developer assessment",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/StevenS125/developer-coding-evaluation.git"
+  },
+  "author": "Steven Snyder",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/StevenS125/developer-coding-evaluation/issues"
+  },
+  "homepage": "https://github.com/StevenS125/developer-coding-evaluation#readme",
+  "devDependencies": {
+    "grunt": "^1.0.1",
+    "gulp": "^3.8.11",
+    "gulp-jshint": "^1.9.0",
+    "gulp-ruby-sass": "^1.0.5",
+    "gulp-sourcemaps": "^1.5.2",
+    "gulp-webserver": "^0.9.1"
+  }
+}

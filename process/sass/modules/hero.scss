@@ -1,0 +1,23 @@
+#hero {
+	background: url("../assets/images/pic-hero.png") no-repeat center fixed; 
+    height: 480px;
+    background-size: cover;
+font-family: Effra_Std_Bd;
+color: $white;
+}
+
+#cardLogo {
+    padding: 30px 0 0 60px;
+}
+
+#heroText {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 100px;
+}
+
+
+@font-face {
+    font-family: Effra_Std_Bd;
+    src: url("../assets/fonts/Effra_Std_Bd.ttf");
+}
