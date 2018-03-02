@@ -1,0 +1,35 @@
+#missionDiv {
+    height: 260px;
+}
+
+#clientGray {
+    background-color: $gray;
+    padding: 20px;
+}
+
+.icon-left {
+    height: 200px;
+    float: left;
+    padding-right:10px;
+}
+
+.bizInt {
+width: 33%;
+float: left;
+}
+
+
+.missionHead {
+    font-size: 25px;
+    font-family: Effra_Std_Rg;
+    padding-bottom: 10px; 
+}
+
+.missionBody {
+    font-family: Effra_Std_Rg;
+}
+
+@font-face {
+    font-family: Effra_Std_Rg;
+    src: url("../assets/fonts/Effra_Std_Rg.ttf");
+}
