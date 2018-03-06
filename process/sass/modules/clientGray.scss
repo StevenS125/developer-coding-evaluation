@@ -1,11 +1,14 @@
 #missionDiv {
-    height: 260px;
+    height: 750px;
+    padding-left: 80px;
+    z-index: -1;
 }
 
 #clientGray {
-    background-color: $gray;
-    padding-left: 100px;
-    padding-top: 30px;
+
+    background: linear-gradient(180deg,$gray 50%, $white 50%);
+    padding-top: 70px;
+    position: relative;
 }
 
 .icon-left {
@@ -49,7 +52,9 @@ float: left;
     }
 
     #missionDiv {
-        height: 480px;
+        height: 1300px;
+        padding-left: 0;
+        padding-top: 15px; 
     }
 
     .bizInt {
@@ -66,6 +71,7 @@ float: left;
 
 
     .icon-left {
+        padding-top: 20px;
         text-align: center;
         height: 40px;
         width: 100%;

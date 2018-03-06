@@ -1,8 +1,8 @@
 #footer {
     height: 30px;
     background-color: darken($gray, 15%);
-    padding-top: 15px;
-    padding-left: 40px;
+    padding: 20px 40px;
+    font-family: Effra_Std_Rg;
 }
 
 
@@ -11,4 +11,41 @@
     
     padding-right: 10px;
     float: right;
+}
+
+.socialTags {
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+@media (max-width: 600px) {
+    #footer {
+        margin-top: 580px;
+        height: 60px;
+        background-color: darken($gray, 15%);
+        font-family: Effra_Std_Rg;
+        font-size: 10px;
+    }
+
+    .footCard {
+        background-color: darken($gray, 15%);
+        width: 100%;
+
+    }
+    
+    
+    
+    .icons {
+        width: 100%;
+        padding-top: 10px;
+        padding-right: 10px;
+        float: none;
+        text-align: center;
+    }
+    
+    .socialTags {
+        text-align: center;
+        padding-left: 10px;
+        padding-right: 10px;
+    }
 }

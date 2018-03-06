@@ -88,16 +88,27 @@ input[type=text], select, textarea{
     text-align: center;
     width: 80%;
   }
+
+  .tracy {
+    padding-top: 15px;
+    line-height: 25px;
+    font-family: Effra_Std_Rg;
+    font-size: 15px;
+}
+
+.lowerContact {
+  padding-top: 15px;
+    font-family: Effra_Std_Rg;
+    font-size: 15px;
+}
+
+.findParking, a {
+  padding-top: 15px;
+  font-family: Effra_Std_Bd;
+  font-size: 15px;
+  color: lighten($blue, 15);
+}
   
-  /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
-  @media (max-width: 600px) {
-  input[type=submit] {
-      width: 100%;
-      margin-top: 0;
-    }
-  }
-
-
   .contact {
     padding-top: 30px;
     height: 550px;
@@ -128,6 +139,11 @@ input[type=text], select, textarea{
     height:580px;
   }
 
+
+
+
+
+/* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
 
     .connect {
@@ -145,6 +161,7 @@ input[type=text], select, textarea{
       width: 100%;
       background-color: #f2f2f2;
       float: right;
+      text-align: center;
     }
 
     #map {
@@ -153,8 +170,6 @@ input[type=text], select, textarea{
         width: 40%;
     
        }
-
-
 
        form {
          margin: auto;

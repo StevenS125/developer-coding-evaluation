@@ -8,6 +8,10 @@ overflow: hidden;
 margin: 0;
 }
 
+.tracy {
+    font-family: Effra_Std_Rg;
+}
+
 
 .fifthText {
     padding-top: 15%;
@@ -42,6 +46,8 @@ padding-left: 5%;
 z-index: 10;
         }
     }
+
+
 
     input[type=button] {
         margin-top: 30px;
@@ -91,6 +97,11 @@ z-index: 10;
             line-height: 30px;
         }
         
+        #fifthButton {
+            text-align: center;
+            margin-left: 25%;
+            float: none;
+        }
         
         .phoneImg {
             width: 100%;
