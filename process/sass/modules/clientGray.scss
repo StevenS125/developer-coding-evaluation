@@ -4,7 +4,8 @@
 
 #clientGray {
     background-color: $gray;
-    padding: 20px;
+    padding-left: 100px;
+    padding-top: 30px;
 }
 
 .icon-left {
@@ -27,9 +28,52 @@ float: left;
 
 .missionBody {
     font-family: Effra_Std_Rg;
+    padding-right: 100px;
 }
 
 @font-face {
     font-family: Effra_Std_Rg;
     src: url("../assets/fonts/Effra_Std_Rg.ttf");
+}
+
+
+
+@media (max-width: 600px) {
+
+
+    #clientGray {
+        background-color: $gray;
+        padding-left: 10px;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    #missionDiv {
+        height: 480px;
+    }
+
+    .bizInt {
+        width: 100%;
+
+        }
+
+        .missionHead {
+            font-size: 25px;
+            font-family: Effra_Std_Rg;
+            padding-bottom: 10px; 
+            width: 100%;
+        }
+
+
+    .icon-left {
+        text-align: center;
+        height: 40px;
+        width: 100%;
+    }
+
+    .missionBody {
+        font-family: Effra_Std_Rg;
+        padding: 0px;
+    }
+
 }

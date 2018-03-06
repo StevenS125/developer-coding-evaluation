@@ -3,7 +3,7 @@
     z-index: 1;
     margin-left: 5%;
     margin-right: 5%;
-    overflow: hidden;
+    padding-bottom: 100px;
 }
 
 
@@ -25,37 +25,102 @@
     float: left;
     box-sizing: border-box;
     outline: 1px solid #cccccc;
-    outline-offset: -10px;
-    width: 24% !important;
-    height: 49%;
     margin: 1%;
+    width: 23% !important;
+    height: 48%;
     background-color: $white;
 }
 
-.ourClient {
-    box-sizing: border-box;
-    width: 50%;
+.halfBox {
     float: left;
-    height: 50%;
+    box-sizing: border-box;
+    outline: 1px solid #cccccc;
+    margin: 1%;
+    width: 48% !important;
+    height: 48% !important;
+    background-color: $dark;
 }
+
 
 .clientHead {
     background-color: $dark;
-    box-sizing: border-box;
-padding: 10%;    
+    box-sizing: border-box;   
 color: $white;
 font-size: 25px;
 font-family: Effra_Std_Rg;
+width: 50%;
 }
 
 .clientBody {
+    width: 50%;
     background-color: $dark;
-    padding: 10px;
     color: $white;
     font-family: Effra_Std_Rg;
 }
 
-@font-face {
+
+
+@media (max-width: 600px) {
+
+    #clientWhite {
+        height: 300px;
+        z-index: 1;
+        margin-left: 2%;
+        margin-right: 2%;
+        padding-bottom: 100px;
+    }
+
+    .halfBox {
+        outline: 0;
+        margin: auto;
+        height: 200px !important;
+        width: 100% !important;
+        background-color: $dark;
+    }
+
+    .clientHead {
+        padding: 20px 0;
+
+        background-color: $dark;  
+    color: $white;
+    font-size: 20px;
     font-family: Effra_Std_Rg;
-    src: url("../assets/fonts/Effra_Std_Rg.ttf");
+    width: 100%;
+    text-align: center;
+    }
+
+    .clientBody {
+        width: 100%;
+        background-color: $dark;
+        color: $white;
+        font-family: Effra_Std_Rg;
+        text-align: center;
+        font-size: 13px;
+    }
+
+    .clientBox {
+        float: left;
+        box-sizing: border-box;
+        outline: 1px solid #cccccc;
+        margin: 1%;
+        width: 100% !important;
+        height: 80px;
+        background-color: $white;
+    }
+
+    .clientImage {
+        box-sizing: border-box;
+            padding: 0;
+        height: 90%;
+        width: 70%;
+        margin: auto;
+    
+        img{
+        text-align: center;
+        margin: auto;
+        width: 100%;
+        height: 100%;
+        }
+    }
+
 }

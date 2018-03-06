@@ -1,16 +1,123 @@
 .chhnCont {
     background: url("../assets/images/pic-chhn-bg.png") no-repeat; 
     background-size: 100% 100%;
-    height: 525px;
+    height: 470px;
 font-family: Effra_Std_Bd;
+color: $white;
+overflow: hidden;
 }
 
 .chhnLogo {
     width: 50%;
-    height: 100%;
-    overflow: hidden;
-    img{
-        width: 100%;
-    }
-
+    float: left;
+    margin-right: 40px;
 }
+
+#chhnImg {
+padding-right: 200px;
+}
+
+
+.chhnHead {
+    font-family: Effra_Std_Bd;
+    font-size: 30px;
+    padding-bottom: 30px; 
+    color: $white;
+}
+
+.chhnSecond {
+    font-size: 17px;
+    font-family: Effra_Std_Rg;
+    line-height: 30px;
+    color: $white;
+}
+
+
+.chhnBody {
+    font-size: 17px;
+    font-family: Effra_Std_Rg;
+    line-height: 30px;
+    color: $white;
+}
+
+.chhnText {
+    padding-top: 65px;
+    padding-left: 15%;
+    font-family: Effra_Std_Rg;
+    margin: 0;
+}
+
+input[type=submit] {
+    margin-top: 30px;
+    background-color: $gray;
+    color: white;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: left;
+  }
+
+  @media (max-width: 600px) {
+
+    #chhnImg {
+        padding-right: 0;
+        width: 100%;
+        }
+
+        .chhnLogo {
+            width: 120%;
+            margin-right: 0;
+        }
+
+        .chhnCont {
+            background: url("../assets/images/pic-chhn-bg.png") no-repeat; 
+            height: 515px;
+        font-family: Effra_Std_Bd;
+        color: $white;
+        overflow: hidden;
+        padding-top: 10px;
+        padding-left: 20px;
+        }    
+        
+        .chhnHead {
+            font-family: Effra_Std_Bd;
+            font-size: 22px;
+            padding-bottom: 20px; 
+            color: $white;
+        }
+        
+        .chhnSecond {
+            font-size: 15px;
+            font-family: Effra_Std_Lt;
+            line-height: 30px;
+            color: $white;
+        }
+        
+        
+        .chhnBody {
+            font-size: 15px;
+            font-family: Effra_Std_Lt;
+            line-height: 15px;
+            color: $white;
+        }
+        
+        .chhnText {
+            padding-top: 65px;
+            padding-left: 15%;
+            font-family: Effra_Std_Rg;
+            margin: 0;
+        }
+        
+        input[type=submit] {
+            margin-top: 30px;
+            background-color: $gray;
+            color: white;
+            padding: 15px 30px;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+            float: left;
+          }
+
+  }

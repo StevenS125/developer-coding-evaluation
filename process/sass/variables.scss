@@ -7,4 +7,26 @@ $orange:      #F39856;
 $red:         #D14348;
 $purple:      #6D73C2;
 $gray:        #efefef;
-$dark:        #424242;
+$dark:        #383d49;
+$default:     #c5c5c5;
+
+
+
+@font-face {
+    font-family: Effra_Std_Rg;
+    src: url("../assets/fonts/Effra_Std_Rg.ttf");
+}
+@font-face {
+    font-family: Effra_Std_Lt;
+    src: url("../assets/fonts/Effra_Std_Lt.ttf");
+}
+
+@font-face {
+    font-family: Effra_Std_Bd;
+    src: url("../assets/fonts/Effra_Std_Bd.ttf");
+}
+
+@font-face {
+    font-family: Effra_Std_Md;
+    src: url("../assets/fonts/Effra_Std_Md.ttf");
+}

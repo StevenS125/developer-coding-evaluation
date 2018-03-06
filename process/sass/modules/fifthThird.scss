@@ -1,7 +1,124 @@
 .fifthCont {
-    background: url("../assets/images/pic-fifththird-bg.png") no-repeat; 
+    background: linear-gradient( rgba(0, 0, 0, 0.836), rgba(0, 228, 245, 0.589) ), url("../assets/images/pic-fifththird-bg.png") no-repeat; 
     background-size: 100% 100%;
     height: 578px;
 font-family: Effra_Std_Bd;
 z-index: 0;
+overflow: hidden;
+margin: 0;
 }
+
+
+.fifthText {
+    padding-top: 15%;
+    padding-left: 15%;
+    color: $white;
+    font-family: Effra_Std_Rg;
+    width: 40%;
+    height: 100%;
+    margin: 0;
+}
+
+.fifthHead {
+    font-family: Effra_Std_Rg;
+    font-size: 30px;
+    padding-bottom: 30px; 
+}
+
+.fifthBody {
+    font-size: 17px;
+    font-family: Effra_Std_Lt;
+    line-height: 30px;
+}
+
+
+.phoneImg {
+    width: 60%;
+    float: right;
+
+        img{
+padding-top: 5%;
+padding-left: 5%;
+z-index: 10;
+        }
+    }
+
+    input[type=button] {
+        margin-top: 30px;
+        background-color: $gray;
+        font-family: Effra_Std_Rg;
+        font-weight: bold;
+        color: black;
+        padding: 15px 40px;
+        border-radius: 5px;
+        cursor: pointer;
+        float: left;
+      }
+
+
+      @media (max-width: 600px) {
+        .fifthCont {
+            background: linear-gradient( rgba(0, 0, 0, 0.836), rgba(24, 125, 137, 0.479) ), url("../assets/images/pic-fifththird-bg.png") no-repeat; 
+            height: 578px;
+        font-family: Effra_Std_Bd;
+        z-index: 0;
+        overflow: 0;
+        margin: 0;
+        }
+        
+        
+        .fifthText {
+            padding-top: 0;
+            padding-left: 0;
+            color: $white;
+            font-family: Effra_Std_Rg;
+            width: 100%;
+            height: 100%;
+            margin: 0;
+        }
+        
+        .fifthHead {
+            font-family: Effra_Std_Rg;
+            font-size: 30px;
+            padding-bottom: 30px; 
+            text-align: center;
+        }
+        
+        .fifthBody {
+            text-align: center;
+            font-size: 17px;
+            font-family: Effra_Std_Lt;
+            line-height: 30px;
+        }
+        
+        
+        .phoneImg {
+            width: 100%;
+            float: right;
+        
+                img{
+
+                    width: 100%;
+                    height:250px;
+        padding-top: 5%;
+        padding-left: 0;
+        text-align: center;
+        z-index: 10;
+                }
+            }
+        
+            input[type=button] {
+                margin: 30px auto;
+                background-color: $gray;
+                font-family: Effra_Std_Rg;
+                font-weight: bold;
+                color: black;
+                padding: 15px 40px;
+                border-radius: 5px;
+                cursor: pointer;
+                text-align: center;
+                float: 0;
+              }
+    
+    }
+

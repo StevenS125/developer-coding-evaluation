@@ -1,6 +1,6 @@
-footer {
+#footer {
     height: 30px;
-    background-color: $dark;
+    background-color: darken($gray, 15%);
     padding-top: 15px;
     padding-left: 40px;
 }
