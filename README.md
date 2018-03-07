@@ -1,5 +1,17 @@
 # Developer Coding Evaluation
 
+## View deployed github pages URL
+https://stevens125.github.io/developer-coding-evaluation/builds/
+
+## To Run Locally
+
+git clone the file as you normally would, type npm install in the command line and to view in browser after installing 
+the depencies simply type gulp to process.
+
+
+
+
+
 ## Instructions
 Say hello to the Cardinal Solutions coding evaluation. You'll be taking a single page mockup and converting it to HTML, CSS, Javascript. Fork this repository to begin your project. All assets (images, fonts) are included in the project. You're welcome to set up the code and folder structure however you wish. All HTML, CSS, and Javascript must be writen from scratch.
 
