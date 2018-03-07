@@ -59,6 +59,12 @@ input[type=submit] {
     float: left;
   }
 
+  input:hover {
+    transition: background-color .3s linear;
+    background-color: darken($gray, 50%);
+    color: $white;
+}
+
   @media (max-width: 600px) {
 
     #chhnImg {
@@ -121,5 +127,6 @@ input[type=submit] {
             cursor: pointer;
             float: left;
           }
+
 
   }
