@@ -27,7 +27,9 @@ initMap =() => {
     window.open('https://www.thechristhospital.com');
   }
 
+
+
   clear = () => {
-   var clear = document.getElementById("fname")
-    console.log(clear.nodeValue())
+   var clear = document.getElementById("fname").value
+    console.log('clear');
   }

@@ -9,7 +9,7 @@
 
 #map {
   margin-top: 30px;
-    height: 200px;
+    height: 150px;
     width: 40%;
 
    }
@@ -49,9 +49,24 @@ input[type=text], select, textarea{
   .connect {
     padding-top: 30px;
     height: 550px;
-    width: 60%;
+    width: 59%;
     background-color: #f2f2f2;
     float: left;
+  }
+
+  .connectContainer {
+    height: 580px;
+    background-color: #f2f2f2;
+    width: 100%;
+  }
+
+  .line {
+    margin-top: 60px;
+    background-color: #f2f2f2;
+    float: left;
+    width: 2px;
+    height: 450px;
+    border-left: 2px solid darken($gray,10);
   }
   
   /* Floating column for labels: 25% width */
@@ -110,9 +125,11 @@ input[type=text], select, textarea{
 }
   
   .contact {
+    position: relative;
     padding-top: 30px;
+    margin-left: 5%;
     height: 550px;
-    width: 40%;
+    width: 35%;
     background-color: #f2f2f2;
     float: right;
   }
@@ -145,6 +162,10 @@ input[type=text], select, textarea{
 
 /* Responsive layout - when the screen is less than 600px wide, make the two columns stack on top of each other instead of next to each other */
   @media (max-width: 600px) {
+
+    .connectContainer {
+      height: 600px;
+    }
 
     .connect {
       padding-top: 30px;
@@ -213,5 +234,17 @@ input[type=text], select, textarea{
       width: 50%;
       margin: auto;
       float: none;
+    }
+
+    .line {
+      margin-top: 0px;
+      background-color: #f2f2f2;
+      float: left;
+      width: 60%;
+      margin-left: 20%;
+      margin-right: 20%;
+      height: 0px;
+      border-left: 0px solid darken($gray,10);
+      border-bottom: 2px solid darken($gray,10);
     }
   }
