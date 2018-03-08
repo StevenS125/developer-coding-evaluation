@@ -14,7 +14,7 @@ initMap =() => {
     });
   }
 
-
+// These three functions will point button click for rollovers to actual pages of companies 
   gojoClick = () => {
     window.open('https://www.gojo.com/en');
   }
@@ -26,6 +26,16 @@ initMap =() => {
   chhnClick = () => {
     window.open('https://www.thechristhospital.com');
   }
+
+// Lazy Load images to improve load time
+  window.addEventListener('load', function(){
+    var allimages= document.getElementsByTagName('img');
+    for (var i=0; i<allimages.length; i++) {
+        if (allimages[i].getAttribute('data-src')) {
+            allimages[i].setAttribute('src', allimages[i].getAttribute('data-src'));
+        }
+    }
+}, false)
 
 
 
