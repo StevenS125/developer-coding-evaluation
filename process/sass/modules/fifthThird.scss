@@ -1,5 +1,5 @@
 .fifthCont {
-    background: linear-gradient( rgba(0, 0, 0, 0.836), rgba(0, 228, 245, 0.589) ), url("../assets/images/pic-fifththird-bg.png") no-repeat; 
+    background: linear-gradient( rgba(0, 0, 0, 0.836), rgba(0, 228, 245, 0.589) ), url("../assets/images/pic-fifththird-bg-min.png") no-repeat; 
     background-size: 100% 100%;
     height: 578px;
 font-family: Effra_Std_Bd;
@@ -64,7 +64,7 @@ z-index: 10;
 
       @media (max-width: 600px) {
         .fifthCont {
-            background: linear-gradient( rgba(0, 0, 0, 0.836), rgba(24, 125, 137, 0.479) ), url("../assets/images/pic-fifththird-bg.png") no-repeat; 
+            background: linear-gradient( rgba(0, 0, 0, 0.836), rgba(24, 125, 137, 0.479) ), url("../assets/images/pic-fifththird-bg-min.png") no-repeat; 
             height: 578px;
         font-family: Effra_Std_Bd;
         z-index: 0;
