@@ -13,11 +13,6 @@ overflow: hidden;
     margin-right: 40px;
 }
 
-#chhnImg {
-padding-right: 200px;
-}
-
-
 .chhnHead {
     padding-top: 80px;
     font-family: Effra_Std_Bd;
@@ -64,6 +59,15 @@ input[type=submit] {
     background-color: darken($gray, 50%);
     color: $white;
 }
+
+@media (max-width: 1050px) {
+    .chhnLogo {
+        width: 50%;
+        float: left;
+        margin-right: 200px;
+    }
+}
+
 
   @media (max-width: 600px) {
 

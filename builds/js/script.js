@@ -2,7 +2,7 @@
 
 // function to generate map and location in connect area
 
-initMap =() => {
+function initMap() {
     var uluru = {lat: 35.227165, lng: -80.846342};
     var map = new google.maps.Map(document.getElementById('map'), {
       zoom: 18,
@@ -15,15 +15,15 @@ initMap =() => {
   }
 
 // These three functions will point button click for rollovers to actual pages of companies 
-  gojoClick = () => {
+  function gojoClick() {
     window.open('https://www.gojo.com/en');
   }
 
-  fifthClick = () => {
+  function fifthClick() {
     window.open('https://www.53.com/content/fifth-third/en.html');
   }
 
-  chhnClick = () => {
+  function chhnClick() {
     window.open('https://www.thechristhospital.com');
   }
 
@@ -37,9 +37,3 @@ initMap =() => {
     }
 }, false)
 
-
-
-  clear = () => {
-   var clear = document.getElementById("fname").value
-    console.log('clear');
-  }

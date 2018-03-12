@@ -156,6 +156,12 @@ input[type=text], select, textarea{
     height:580px;
   }
 
+  textarea:hover {
+    transition: background-color .3s linear;
+    background-color: darken($gray, 50%);
+    color: $white;
+}
+
 
 
 
